@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Tugas Tabel</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<style>
+  body{
+    background-color: rgb(44, 44, 44);
+    font-family: Arial, sans-serif;
+  }
+
+  h2{
+    color: white;
+    text-align: center;
+  }
+  .table-container{
+    width: 80%;
+    background-color: aliceblue;
+    border: 1px solid beige;
+    border-radius: 10px;
+    overflow: hidden  ;
+    text-align: center;
+    margin: 0 auto;
+  }
+  table{
+    align-content: center;
+    border: 1px solid beige;
+    border-collapse: collapse;
+    background-color: rgb(61,61,61);
+    color: beige;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  tr,td{
+    border: 1px solid beige;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  th{
+    border: 1px solid beige;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  tr:nth-child(even){
+    background-color: rgb(84,84,84);
+  }
+
+  tr:nth-child(1){
+    background-color: black;
+  }
+</style>
+
+<body>
+  <h2>Tabel Perkuliahan</h2>
+  <div class="table-container">  
+    <table>
+      <tr>
+        <th>NIM</th>
+        <th>Kelas</th>
+        <th>Mata Kuliah</th>
+        <th>Ruang</th>
+        <th>Dosen</th>
+        <th>Waktu Kuliah</th>
+      </tr>
+      <tr>
+        <td>23090043</td><td>3C</td>
+        <td>Enterprise Resource Planning</td>
+        <td>D4.7</td>
+        <td>Dyah Apriliani</td>
+        <td>08.50-10.30</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td>123456</td>
+        <td>123456</td>
+        <td>123456</td>
+        <td>123456</td>
+        <td>123456</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
